@@ -1,0 +1,6 @@
+a = "Hello world"
+b = "Max"
+C = "16"
+print( a , type (a))
+print( b, type (b))
+print( c , type (c))
