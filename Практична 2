@@ -2,25 +2,24 @@
 +name2 = [type(x) for x in namel
 +print (name2)
 
-+S = 0
-+i = 0
-+f = 0
-+00 = 0
-+for x in name:
-+if type(x) = str:
-+ S += 1
-+elif type(x) == int:
-+ i += 1
-+elif type (x) == float:
-+ f +=1
-+elif type(x) == bool:
-+ bo += 1
-+
-+tif s›i and s›f and s>bo:
-+print ("STR найбільше")
-+telif i›s and i›f and i›bo:
-+print ("INT найбільше")
-+telif f>s and f>i and f>bo:
-+print ("FLOAT найбільше")
-+elif bo>s and bo>f and bo>i:
-+print ("BOOL найбільше")
+S = 0
+i = 0
+f = 0
+00 = 0
+for x in name:
+if type(x) = str:
+S += 1
+elif type(x) == int:
+i += 1
+elif type (x) == float:
+f +=1
+elif type(x) == bool:
+bo += 1
+tif s›i and s›f and s>bo:
+print ("STR найбільше")
+telif i›s and i›f and i›bo:
+print ("INT найбільше")
+telif f>s and f>i and f>bo:
+print ("FLOAT найбільше")
+elif bo>s and bo>f and bo>i:
+print ("BOOL найбільше")
