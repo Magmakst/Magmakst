@@ -1,0 +1,19 @@
+valume = [3, 1, 2, 3, 4, 5, 6, 3, 4, 5, 7, 6, 5, 4, 3, 4, 5, 4, 3, 'Привіт', 'анаконда']
+sortedcompilation = []
+int = []
+str = []
+def test(function):
+    for element in function:
+        if element not in sorted_compilation:
+            sorted_compilation.append(element)
+    for element in sorted_compilation:
+        if type(element) == int:
+            int.append(element)
+        elif type(element) == str:
+            str.append(element)
+            #сорт. по інт і стр
+    int.sort()
+    str.sort()
+    return int + str_
+result = test(valume) # виз. функ.
+print("Відсортований список:", result)
