@@ -1,25 +1,32 @@
-+Name = [16, 'hello world', 'Макс', 'Дацків']
-+name2 = [type(x) for x in namel
-+print (name2)
+name = [16, 'hello world', 'Макс', 'Дацків']
 
-S = 0
-i = 0
-f = 0
-00 = 0
+# Створення списку з типів елементів
+name2 = [type(x) for x in name]
+print(name2)
+
+# Підрахунок кількості елементів кожного типу
+S = 0  # кількість рядків
+i = 0  # кількість цілих чисел
+f = 0  # кількість чисел з плаваючою комою
+bo = 0 # кількість булевих значень
+
+# Перевірка типів елементів у списку
 for x in name:
-if type(x) = str:
-S += 1
-elif type(x) == int:
-i += 1
-elif type (x) == float:
-f +=1
-elif type(x) == bool:
-bo += 1
-tif s›i and s›f and s>bo:
-print ("STR найбільше")
-telif i›s and i›f and i›bo:
-print ("INT найбільше")
-telif f>s and f>i and f>bo:
-print ("FLOAT найбільше")
-elif bo>s and bo>f and bo>i:
-print ("BOOL найбільше")
+    if type(x) == str:
+        S += 1
+    elif type(x) == int:
+        i += 1
+    elif type(x) == float:
+        f += 1
+    elif type(x) == bool:
+        bo += 1
+
+# Визначення, який тип зустрічається найбільше
+if S > i and S > f and S > bo:
+    print("STR найбільше")
+elif i > S and i > f and i > bo:
+    print("INT найбільше")
+elif f > S and f > i and f > bo:
+    print("FLOAT найбільше")
+elif bo > S and bo > f and bo > i:
+    print("BOOL найбільше")
